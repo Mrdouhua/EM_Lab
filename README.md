@@ -13,10 +13,10 @@
 * 添加重置密码功能
 在登录弹出层底部添加一个忘记密码的按钮，当点击此按钮时，获取账号发送到后台验证该账号是否设置过密保问题。若有则反馈密保问题回来，并缓存到一个变量中，然后调用重置密码组件
 
-#### 首页学生端重置密码([forgetPassword.jsp](./lab\WebRoot/forgetPassword.jsp))
+#### 首页学生端重置密码([forgetPassword.jsp](./WebRoot/forgetPassword.jsp))
 组件都是写成“jsp”的格式，加载重置密码组件后，把刚才缓存的问题填写到相应位置，通过ajax把问题和答案发送到后台验证，若正确则可以重置密码
 
-#### 注册页面在chrome浏览器下布局错乱([register.jsp](./lab\WebRoot/register.jsp))
+#### 注册页面在chrome浏览器下布局错乱([register.jsp](./WebRoot/register.jsp))
 chrome浏览器的默认字体为宋体，其他浏览器的默认字体为微软雅黑，所以在chrome浏览器下注册页面的字体偏大，并且会换行显示
 **解决方案：**
 给表单加上两个css样式，
